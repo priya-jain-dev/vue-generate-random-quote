@@ -1,24 +1,7 @@
-# vue-generate-random-quote
+## Demo 🚀 
 
-## Project setup
-```
-yarn install
-```
+[priya-random-quote-generator.netlify.app/](https://priya-random-quote-generator.netlify.app/)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+![Image of quote](https://github.com/priya-jain-dev/vue-generate-random-quote/screens/1.png)
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Image of author quote](https://github.com/priya-jain-dev/vue-generate-random-quote/screens/2.png)
