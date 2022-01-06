@@ -59,8 +59,8 @@ export default {
       axios
         .get("https://quote-garden.herokuapp.com/api/v3/quotes/random")
         .then(response => {
-          if (response.data.statusCode == 200 && response.data.quote) {
-            this.quote = response.data.quote;
+          if (response.data.statusCode == 200 && response.data[0]) {
+            this.quote = response.data[0].quote;
             this.is_spin = false;
           } else {
             this.quote = null;
