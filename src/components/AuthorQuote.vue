@@ -47,7 +47,7 @@ export default {
     authorQuote: function(author) {
       this.is_spin = true;
       axios
-        .get(`https://quote-garden.herokuapp.com/api/v2/authors/${author}`)
+        .get(`https://quote-garden.herokuapp.com/api/v3/authors/${author}`)
         .then(response => {
             if(response && response.data && response.data.statusCode == 200){
                 this.authorQuotes = response.data.quotes ?  response.data.quotes : null;
